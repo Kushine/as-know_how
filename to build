@@ -1,0 +1,3 @@
+go to root folder and do make -j4 
+
+build files will be generated in release

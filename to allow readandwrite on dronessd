@@ -1,0 +1,15 @@
+#type df and find the device something like 
+/dev/mmcblk1p1
+#then do 
+sudo hdparm -r 0 /dev/mmcblk1p1
+#then 
+sudo blockdev --setrw /dev/mmcblk1p1
+#then 
+sudo mount -o remount, rw /media/TransferJet
+#To change permissions 
+find /media/TransferJet/ORB_SLAM2 -type d -exec chmod 755 {} \;
+or 
+killall nautilus
+#then test with 
+mkdir example_folder
+

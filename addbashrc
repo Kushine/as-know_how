@@ -1,0 +1,14 @@
+source /opt/ros/kinetic/setup.bash
+source ~/nedo/as-ros/workspace/devel/setup.bash
+
+PATH=$PATH:$HOME/nedo/zsr-px4/work/gcc-arm-none-eabi-4_7-2014q2/bin
+
+
+
+export ROS_MASTER_URI="http://192.168.180.11:11311"
+export ROS_IP=192.168.180.11
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/home/sho/nedo/as-ros/workspace/devel/lib
+
+export GAZEBO_RESOURCE_PATH=/home/sho/nedo/zsr-gazebo
+export GAZEBO_PLUGIN_PATH=/home/sho/nedo/zsr-gazebo/catkin_gazebo/devel/lib
+export GAZEBO_MODEL_PATH=/home/sho/nedo/zsr-gazebo/models

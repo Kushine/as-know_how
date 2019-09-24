@@ -1,0 +1,6 @@
+  Uninstall OpenCV for Tegra packages, purge local repositories, and update the apt
+  cache using the following commands:
+
+        $ sudo apt-get purge libopencv4tegra-dev libopencv4tegra
+        $ sudo apt-get purge libopencv4tegra-repo
+        $ sudo apt-get update

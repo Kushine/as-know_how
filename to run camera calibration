@@ -1,0 +1,6 @@
+
+go to tools/camera_calibration_program and run
+./example_tutorial_camera_calibration in_VID5.xml 
+
+output file will be in the same folder named out_camera_data.xml
+

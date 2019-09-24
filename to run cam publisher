@@ -1,0 +1,6 @@
+manage settings from here 
+/opt/ros/kinetic/share/usb_cam/launch
+
+usb_cam/image_raw topic
+
+roslaunch usb_cam usb_cam-test.launch

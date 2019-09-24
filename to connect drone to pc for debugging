@@ -1,0 +1,2 @@
+ sudo ufw enable
+then make ros ID same as master 

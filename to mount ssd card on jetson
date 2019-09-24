@@ -1,0 +1,6 @@
+to get the name of the drive 
+lsblk
+
+something simmilar to "mmcblk1p1"
+
+sudo mount /dev/mmcblk1p1 /media/TransferJet

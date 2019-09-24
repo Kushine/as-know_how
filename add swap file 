@@ -1,0 +1,2 @@
+sudo mkswap /media/TransferJet/swapfile
+sudo swapon /media/TransferJet/swapfile

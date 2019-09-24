@@ -1,0 +1,4 @@
+ssh-keygen -f "/home/yujielfahkrany/.ssh/known_hosts" -R throne-19.local
+
+ssh -X aerosense@throne-19.local
+pw:throne

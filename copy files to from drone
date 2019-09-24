@@ -1,0 +1,16 @@
+go to directory on drone and use this 
+
+sudo rcp yujielfahkrany@zsr-Latitude-5414:/home/yujielfahkrany/repo/zsr-dso/build/20181211_2.sh .
+
+copy files from drone
+
+go to local repo and type this 
+
+sudo rcp throne@throne-19.local:/home/yujielfahkrany/repo/zsr-dso/build/20181211_2.sh .
+
+for directory use 
+
+sudo rcp -r
+
+to send files sudo scp -r mt7610u_wifi_sta_v3002_dpo_20130916 aerosense@throne-19.local:/home/aerosense/tools
+

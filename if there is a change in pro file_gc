@@ -1,0 +1,8 @@
+in repo 
+
+make distclean
+
+then 
+
+/home/zsr/Qt/5.9.1/gcc_64/bin/qmake ./qgroundcontrol.pro 
+

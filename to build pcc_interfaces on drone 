@@ -1,0 +1,7 @@
+change linker for sse2neon in workshop/src/pcc_interface/CMakelists.txt 
+change linker in pcc_camera.cpp
+and add video4linux2 library 
+sudo apt-get install libv4l-dev
+and glew
+
+sudo apt-get install libglew-dev

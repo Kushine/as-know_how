@@ -1,0 +1,23 @@
+find serial number by typing 
+>udevadm info -a -n /dev/ttyUSB5 | grep serial
+
+get: 
+ ATTRS{serial}=="A1032GHY"
+ ATTRS{serial}=="tegra-xhci"
+
+
+for pxhawk 
+
+    ATTRS{serial}=="A6023M03"
+    ATTRS{serial}=="tegra-ehci.0"
+
+
+for leddarone 
+ ATTRS{serial}=="A1032GHY"
+ ATTRS{serial}=="tegra-xhci"
+
+write rules here 
+/etc/udev/rules.d/99-usbserial.rules
+
+write the follwoing 
+

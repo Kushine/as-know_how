@@ -1,0 +1,13 @@
+#axis is axis of rotation 
+#radian is angle of rotation
+
+q.x=axis.x*sin(radian/2)
+q.y=axis.y*sin(radian/2)
+q.z=axis.z*sin(radian/2)
+q.w=cos(radian/2)
+
+#To reverse
+axis.x = q.x / asin(acos(q.w))
+axis.y = q.y / asin(acos(q.w))
+axis.z = q.z /asin(acos(q.w))
+radian = acos(q.w)*2

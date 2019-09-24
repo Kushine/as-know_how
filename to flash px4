@@ -1,0 +1,6 @@
+#go to zsr-px4 repo
+export PATH=/home/yujielfahkrany/gcc-arm-none-eabi-4_7-2014q2/bin/:$PATH
+make archives
+make clean
+make px4fmu-v2_default
+make px4fmu-v2_default upload

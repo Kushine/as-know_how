@@ -1,0 +1,2 @@
+inside as-ros\workspace go to devel setup.bash then from the same terminal do catkin_make 
+after it is done do rosrun and then go to the node 

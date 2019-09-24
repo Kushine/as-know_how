@@ -1,0 +1,5 @@
+go to zsr-dso repo and then build 
+
+change cam_param.xml to cam_param_video1.xml if it is facing forward camera leave it as it is if it is downfacing camera  
+
+make sure there is images.zip in the same folder 

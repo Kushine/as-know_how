@@ -1,0 +1,30 @@
+#on jetson
+#write commands in 
+
+/etc/rc.local
+# make sure it is executed from /etc/init.d/rc.local
+#if the process is roslaunch 
+#use this 
+
+#!/bin/bash
+source /opt/ros/kinetic/setup.bash
+while true; do
+        IP="`ifconfig  | grep 'inet addr:'192.168.12.13''| cut -d: -f2 | awk '{ print $1}'`"
+
+        if [ "$IP" ] ; then
+                echo "Found"
+                break
+        fi
+done
+source /media/ubuntu/c2380484-f3cf-4e4f-865e-0a55ab798185/as-ros/workspace/devel/setup.bash
+roslaunch /media/ubuntu/c2380484-f3cf-4e4f-865e-0a55ab798185/as-ros/workspace/env/aerosense.launch&
+while true; do
+        ROS="`rosnode list | grep '/rosout'| cut -d: -f2 | awk '{ print $1}'`"
+        if [ "$ROS" ]; then
+                mkdir /home/tst_dir
+                roslaunch usb_cam usb_cam-test.launch&
+                break
+        fi
+done
+exit 0
+

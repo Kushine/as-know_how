@@ -1,0 +1,10 @@
+go to the file and use 
+
+echo "words" >> /etc/file.ext
+
+if writing in drone files use 
+
+sudo bash -c 'echo "192.168.180.29 zsr-Latitude-5414" >> /etc/hosts'
+
+
+

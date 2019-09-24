@@ -1,0 +1,3 @@
+sudo chown root:root pcc_interface_node
+sudo chmod a+rx pcc_interface_node
+sudo chmod u+s pcc_interface_node

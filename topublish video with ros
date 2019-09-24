@@ -1,0 +1,1 @@
+ rosrun image_publisher image_publisher output.mp4

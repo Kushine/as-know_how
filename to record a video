@@ -1,0 +1,6 @@
+open vlc 
+press ctrl+R
+select video input 
+click convert/save
+select output of destination the start 
+when finished press stop icon 

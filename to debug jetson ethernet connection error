@@ -1,0 +1,6 @@
+in /etc/network/interfaces file wite down 
+auto eth1
+iface eth1 inet dhcp
+
+then try to get IP 
+sudo ifup -v eth1

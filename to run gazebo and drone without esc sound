@@ -1,0 +1,2 @@
+connect drone to gqround control and enable vicon encoder
+then once drone is connected and emc doesn't make sound anymore, delete xbee link and then launch gazebo 

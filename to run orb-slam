@@ -1,0 +1,13 @@
+go to repo/ORB_SLAM2/build
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/yujielfahkrany/repo/ORB_SLAM2/Examples/ROS
+rosrun ORB_SLAM2 Mono ../Vocabulary/ORBvoc.txt ../ros_cam_param.yaml
+
+then run camera frame publisher 
+
+set settings from this file e.g. topic name, etc.. 
+
+/opt/ros/kinetic/share/usb_cam/launch/usb_cam-test.launch
+
+then do 
+
+roslaunch usb_cam usb_cam-test.launch

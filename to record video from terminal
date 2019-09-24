@@ -1,0 +1,4 @@
+#to record video from terminal 
+sudo ffmpeg -f video4linux2 -s 480x640 -i /dev/video0 out2.mpg
+#te view the video from terminal 
+xdg-open out2.mpg

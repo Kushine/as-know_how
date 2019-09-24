@@ -1,0 +1,6 @@
+go to the folder then run 
+
+chmod +x script.py
+
+make sure the script heading points to python package 
+then simply run ./script.py

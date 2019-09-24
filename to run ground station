@@ -1,0 +1,7 @@
+in repo find .pro location and do the following 
+
+qmake qgroundcontrol.pro
+
+make -j8
+
+./release/qgroundcontrol --dev

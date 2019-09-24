@@ -1,0 +1,9 @@
+open terminal ar ros-as/workspace/devel/lib/pcc_interface
+find the node executable file 
+and write this command 
+source ../../../devel/setup.bash 
+on drone make it 
+source ../../../devel/setup.zsh
+then do 
+rosrun pcc_interface pcc_interface_node
+ 

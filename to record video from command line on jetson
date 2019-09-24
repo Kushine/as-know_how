@@ -1,0 +1,10 @@
+ffmpeg -f v4l2 -framerate 30 -video_size 640x480 -i /dev/video1 /media/mountSSD/`date +%Y-%m-%d.%H:%M:%S`_ff.mkv
+
+to start with startup
+sudo -i
+vi /etc/rc.local // change this like the following
+
+# This script is executed at the end of each multiuser runlevel
+/path/to/my/script.sh || exit 1   # Added by me
+exit 0
+

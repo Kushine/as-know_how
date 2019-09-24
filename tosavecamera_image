@@ -1,0 +1,3 @@
+rosrun image_view image_saver image:=/camera/image
+
+will save the images anywhere you run this code in

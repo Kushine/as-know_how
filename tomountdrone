@@ -1,0 +1,1 @@
+/usr/bin/sshfs aerosense@192.168.180.39:/ ~/mount

@@ -1,0 +1,9 @@
+open terminal and run the following command
+
+
+roslaunch /home/yujielfahkrany/repo/zsr-gazebo/catkin_gazebo/src/throne_sim/launch/throne_sim.launch
+
+
+to run ground control 
+
+always run ground control first then simulator 
